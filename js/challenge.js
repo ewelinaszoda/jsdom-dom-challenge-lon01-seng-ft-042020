@@ -28,10 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // QUESTION NR 10 why that is working without invoke the function????
 
   // !!!!!!!!!!!!!!!!!with const does not work!!!!!!!!!!!!!!!! ???????????
-  const counter = document.querySelector('#counter');
-  const pause = document.querySelector('#pause');
 
-  let timeUp = setInterval(secondsUp, 1000);
+  const timeUp = setInterval(secondsUp, 1000);
 
   function secondsUp() {
     counter.innerText++;
